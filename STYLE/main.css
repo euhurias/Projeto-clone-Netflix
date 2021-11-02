@@ -1,0 +1,154 @@
+:root{
+    --amarelo:#ece909;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/*Elementos base*/
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--amarelo);
+    font-family: 'Arial Black', Times;
+    font-size: 70px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme Principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60) ), url('/IMG/fundodeadepool.jpg');
+
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgb(252, 243, 118);
+    border: none;
+    color:black;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 1s ease all;
+    
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.filme-secundario{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60) ), url('/IMG/capalacasadepapel.jpg');
+
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-secundario .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.tags{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: var(--amarelo);
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h3 img{
+    width: 300px;
+
+}
+ 
